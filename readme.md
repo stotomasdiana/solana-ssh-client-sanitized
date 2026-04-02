@@ -1,12 +1,18 @@
 # SSH Client
 
-Sanitized public copy of the Android project.
+SSH Client is an Android app that combines mobile SSH access with Solana Mobile Wallet Adapter support.
 
-What was removed from this export:
-- Local SDK configuration in `local.properties`
-- Release signing files such as `keystore.properties` and `*.jks`
-- Build outputs such as `app/build/` and generated APKs
-- Local screenshots and debug images
-- The original hardcoded transfer recipient and display amount in the wallet flow
+This repository is a sanitized public export of the project. Sensitive local files, signing materials, build outputs, screenshots, and original hardcoded transfer details were intentionally removed before publication.
 
-Before building a signed release, add your own local signing config and keystore outside version control.
+## Documentation
+
+- [Copyright Notice](copyright.md)
+- [Privacy Policy](privacy-policy.md)
+- [License](license.md)
+- [Terms and Conditions](terms-conditions.md)
+
+## Notes
+
+- Add your own `local.properties` before building locally.
+- Add your own signing configuration and keystore before creating signed release builds.
+- Review the wallet transfer placeholders before using this code in production.
