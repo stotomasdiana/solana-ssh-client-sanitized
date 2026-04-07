@@ -31,7 +31,6 @@ This repository is a sanitized public export of the Android project. Sensitive l
 4. Tap **Add Connection**.
 5. Enter the host, port, username, and authentication method.
 6. If you use password authentication, enter the password.
-7. If you use key authentication, import a valid PEM private key file.
 8. Save the connection profile.
 9. Tap the saved node from the connection list to open the terminal session.
 10. Review the host fingerprint on first connection and trust it only after verification.
