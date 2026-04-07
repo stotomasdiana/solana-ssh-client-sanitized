@@ -21,6 +21,7 @@ This repository is a sanitized public export of the Android project. Sensitive l
 - [Privacy Policy](privacy-policy.md)
 - [License](license.md)
 - [Terms and Conditions](terms-conditions.md)
+- [SSH Server Setup Guide](ssh-server-setup.md)
 
 ## How To Use The SSH Client
 
@@ -37,7 +38,29 @@ This repository is a sanitized public export of the Android project. Sensitive l
 11. Start sending commands from the live terminal screen.
 12. Use the built-in quick keys for common terminal actions like `TAB`, `ESC`, arrow keys, and control shortcuts.
 
-If SSH is not yet enabled on your server, open the in-app SSH setup guide for macOS, Windows, and Ubuntu instructions.
+If SSH is not yet enabled on your server, read the [SSH Server Setup Guide](ssh-server-setup.md) or open the in-app setup guide for macOS, Windows, and Ubuntu instructions.
+
+## Add Connection Example
+
+Here is a concrete example of what to enter in the **Add Connection** screen.
+
+Example target machine:
+
+- Local IP address: `192.168.1.23`
+- SSH port: `22`
+- Username: `alex`
+- Authentication: password login
+
+Fill the fields like this:
+
+- Name: `MacBook Office`
+- Host: `192.168.1.23`
+- Port: `22`
+- Username: `alex`
+- Authentication: `Password`
+- Password: your login password for that machine
+
+If you use key-based authentication instead, keep the same Host, Port, and Username, then switch Authentication to `Private Key` and import the PEM private key file that matches the remote machine account.
 
 ## Setup Notes
 
