@@ -4,6 +4,8 @@ Solana Remote is built for people who use vibe coding AI, remote servers, and wa
 
 With this app, you can continue interacting with your remote environment directly from your phone instead of sitting in front of a computer waiting for the next step in the loop. Open a server, check terminal output, send commands, and handle mobile wallet signing flows while you are away from your desk.
 
+This app is intended for users with some technical experience who want a more convenient way to control their own computers for real work, including running and supervising workflows like vibe coding from a phone. If you are not comfortable with SSH, remote systems, terminals, or wallet-based actions, you should ignore this app. It is not designed for non-technical users.
+
 ## Why It Matters
 
 - Stay in control of your remote workflow from your phone
