@@ -1,84 +1,95 @@
-# Terms and Conditions
+# Solana Remote Terms and Conditions
 
-Last updated: April 7, 2026
+Last updated: April 13, 2026
 
-## Acceptance of Terms
+## 1. Acceptance of Terms
 
-By downloading, using, copying, modifying, distributing, deploying, or publishing this software, you agree to these Terms and Conditions, the applicable license, and all laws, regulations, and platform policies that apply to your use.
+By downloading, installing, accessing, using, copying, modifying, distributing, or publishing Solana Remote, you agree to these Terms and Conditions, the applicable open-source license, and all applicable laws, regulations, and platform policies.
 
-## Nature of the App
+If you do not agree, do not use the app.
 
-Solana Remote is a mobile tool for SSH access and wallet-assisted actions. It is intended for legitimate remote administration, monitoring, and user-authorized blockchain workflows.
+## 2. Intended Audience
 
-This project is not offered as a guarantee of security, legality, uninterrupted availability, or suitability for any regulated, safety-critical, or unlawful purpose.
+Solana Remote is intended for users with technical experience who understand SSH access, remote systems, command-line workflows, and, where applicable, wallet-based transaction flows.
 
-## End User Responsibility
+The app is not designed for non-technical users and is not represented as a beginner consumer tool.
+
+## 3. Permitted Use
+
+You may use the app only for lawful, authorized, and legitimate purposes, including managing systems you own, control, or are expressly authorized to access.
+
+## 4. Prohibited Use
+
+You may not use Solana Remote, or any derivative deployment of it, to:
+
+- Violate any applicable law or regulation
+- Mislead users about the app’s identity, ownership, purpose, affiliations, or security properties
+- Facilitate unauthorized access, malware, phishing, credential theft, network disruption, exploitation, or other harmful technical activity
+- Circumvent security controls or abuse third-party infrastructure
+- Promote or distribute dangerous, violent, hateful, exploitative, deceptive, or otherwise prohibited content or conduct
+- Facilitate unlawful or non-compliant financial, blockchain, or regulated transactions
+- Collect, process, or disclose user data in a deceptive, coercive, or fraudulent way
+
+## 5. User Responsibilities
 
 You are solely responsible for:
 
-- Validating all SSH targets, credentials, fingerprints, remote commands, and server access rights
-- Reviewing all wallet prompts, transaction details, recipients, signatures, and amounts before approval
-- Securing any keys, secrets, keystores, passwords, and signing credentials used with the project
-- Ensuring your use complies with applicable law, sanctions rules, export controls, consumer protection rules, privacy laws, and app marketplace policies
-- Providing any user notices, consents, EULA terms, disclosures, or regulatory documentation required for your specific deployment
+- Verifying all SSH hosts, ports, credentials, fingerprints, and remote commands
+- Reviewing all wallet prompts, recipients, signatures, and transaction amounts before approval
+- Securing your passwords, private keys, keystores, devices, and signing credentials
+- Ensuring your use complies with applicable law, export controls, sanctions, consumer protection rules, privacy obligations, and marketplace policies
+- Providing any notices, disclosures, consent flows, support processes, deletion flows, or regulated-service documentation required for your own deployment
 
-## Prohibited Use
+## 6. User Content, User Activity, and Hosted Features
 
-You may not use the app or any derivative deployment to:
+If you deploy a version of the app that allows user-generated content, hosted accounts, shared terminal data, uploads, comments, or community features, you are solely responsible for:
 
-- Violate applicable law or help others violate applicable law
-- Mislead users about the app’s identity, purpose, affiliations, or security properties
-- Circumvent security protections, exploit vulnerabilities, or facilitate hacking, malware, unauthorized access, or disruption of devices, networks, or services
-- Promote dangerous, violent, hateful, sexually explicit, exploitative, deceptive, or otherwise prohibited content
-- Facilitate unlawful or non-compliant transactions, including regulated activities for which you do not have required authorization or documentation
-- Process or expose user data in a fraudulent, coercive, or deceptive manner
+- Applying terms to your users that prohibit unlawful or otherwise restricted conduct
+- Providing moderation, reporting, takedown, or review processes where required
+- Handling user disputes and support issues where required
+- Maintaining compliance with platform policies and applicable law
 
-## User Content and User Activity
+## 7. Wallet, Blockchain, and Remote Access Risks
 
-If you deploy a version of this app that enables user-generated content, shared terminal content, hosted accounts, comments, uploads, or community features, you are solely responsible for:
-
-- Applying terms to your users that prohibit the same categories of restricted content and conduct described above
-- Providing reporting or flagging mechanisms where required
-- Moderating and removing prohibited content when necessary
-- Providing reasonable user self-help and dispute handling processes where applicable
-
-## Privacy and Data Handling
-
-Your use of the app is also subject to the applicable Privacy Policy.
-
-If you deploy or publish this app, you are responsible for ensuring that your privacy practices, data collection, storage, deletion, sharing, and security measures comply with applicable law and any applicable marketplace requirements.
-
-## Wallet, Blockchain, and Remote Access Risk
-
-Blockchain transactions may be irreversible. SSH commands may alter, expose, or damage remote systems. Wallet actions, remote command execution, and network submissions should always be reviewed carefully before approval.
+SSH commands can alter, expose, or damage remote systems. Blockchain transactions may be irreversible. Wallet prompts, remote commands, and network submissions must be reviewed carefully before approval.
 
 The repository owner and contributors are not responsible for:
 
 - Financial loss
-- Failed or delayed transfers
-- Misconfigured recipients or wallets
-- Server misconfiguration
-- Unauthorized access resulting from user-side credential handling
-- Network, RPC, wallet, smart contract, or blockchain failures
+- Failed or delayed transactions
+- Misconfigured recipients, wallets, or remote systems
+- Loss of access
+- User-side credential compromise
+- RPC, wallet, network, or blockchain failures
 
-## Third-Party Services and Dependencies
+## 8. Third-Party Services
 
-This project may rely on third-party wallets, RPC providers, SSH servers, operating systems, libraries, and developer tools. Their availability, behavior, security, and legal terms may change at any time, and they remain subject to their own terms and policies.
+Solana Remote may rely on third-party wallets, RPC providers, SSH servers, operating systems, device manufacturers, and developer tools. Those services are governed by their own terms and may change, fail, or become unavailable at any time.
 
-## No Warranty
+## 9. Privacy
 
-This software is provided on an "as is" and "as available" basis. To the maximum extent permitted by law, the repository owner and contributors disclaim all warranties, whether express, implied, statutory, or otherwise, including warranties of merchantability, fitness for a particular purpose, non-infringement, accuracy, reliability, and uninterrupted operation.
+Use of the app is also subject to the applicable Privacy Policy. If you deploy or publish the app, you are responsible for ensuring that your privacy practices and disclosures are accurate and compliant with applicable law and marketplace requirements.
 
-## Limitation of Liability
+## 10. Suspension, Removal, and Marketplace Review
 
-To the maximum extent permitted by law, the repository owner and contributors shall not be liable for any direct, indirect, incidental, consequential, punitive, exemplary, or special damages arising out of or related to the use of this software, including loss of funds, loss of data, loss of access, service interruption, business interruption, or security incidents.
+Use, distribution, publication, or availability of the app may be suspended, limited, rejected, or removed at any time by a deployment operator, repository owner, or application marketplace according to applicable rules and review standards.
 
-## Suspension, Removal, and Termination
+## 11. No Warranty
 
-Use of this software may be suspended, modified, or discontinued at any time. If you distribute or publish a version of the app through a third-party marketplace, that marketplace may remove or restrict your app at its discretion and according to its own rules.
+Solana Remote is provided on an "as is" and "as available" basis. To the fullest extent permitted by law, the repository owner and contributors disclaim all warranties, whether express, implied, statutory, or otherwise, including warranties of merchantability, fitness for a particular purpose, non-infringement, reliability, accuracy, availability, and uninterrupted operation.
 
-If you do not agree to these terms, do not use the software. Your rights under the applicable license terminate automatically if you violate the license or these terms.
+## 12. Limitation of Liability
 
-## Changes
+To the fullest extent permitted by law, the repository owner and contributors shall not be liable for any indirect, incidental, consequential, punitive, special, or exemplary damages, or for any loss of data, funds, business, access, opportunity, or goodwill arising from or related to the use of the app.
 
-These Terms and Conditions may be updated at any time. Continued use after updates are published constitutes acceptance of the revised terms, to the extent permitted by applicable law.
+## 13. Termination
+
+Your rights under these terms and the applicable license terminate automatically if you violate these terms, violate applicable law, or use the app in a prohibited manner.
+
+## 14. Changes to These Terms
+
+These Terms and Conditions may be updated from time to time. Continued use of the app after updated terms are published constitutes acceptance of the revised terms to the extent permitted by applicable law.
+
+## 15. Contact
+
+For legal, compliance, or policy-related questions, contact the repository owner or the operator of the deployment you are using.

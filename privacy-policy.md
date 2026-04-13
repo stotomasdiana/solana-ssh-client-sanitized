@@ -1,102 +1,107 @@
-# Privacy Policy
+# Solana Remote Privacy Policy
 
-Last updated: April 7, 2026
+Last updated: April 13, 2026
 
-## Overview
+## 1. Overview
 
-Solana Remote is designed to provide mobile SSH access and wallet-assisted transaction flows. This repository is a public source-code distribution and does not itself operate a managed hosted service unless a separate operator deploys one.
+This Privacy Policy explains how Solana Remote handles information when the app is used.
 
-This Privacy Policy is intended to describe, in a transparent way, how user data may be collected, accessed, used, stored, and disclosed when the app or any related deployment is used.
+Solana Remote is a technical mobile application that helps users connect to their own remote machines over SSH and, where supported, interact with compatible wallet flows. The app is intended for technically experienced users and is not designed as a general consumer social product.
 
-## Data We May Process
+This repository is a public source-code distribution. Unless a separate operator runs a hosted backend or support service, the default implementation works primarily on-device and through user-selected third-party infrastructure.
 
-Depending on configuration and user actions, the app may process:
+## 2. Information We May Process
 
-- Server connection details entered by the user, such as host, port, username, and labels
-- Authentication material provided by the user, such as passwords or private keys
-- Wallet addresses, account public keys, and transaction signatures returned by a compatible wallet
-- Terminal input and output generated during active SSH sessions
-- Device-level app data required for local storage, session state, and app functionality
-- Limited technical and operational data necessary for debugging, security, or compliance if a separate operator adds backend services
+Depending on how the app is configured and used, Solana Remote may process:
 
-## How Data Is Used
+- Server profile information such as host, port, username, labels, and authentication mode
+- User-provided authentication material such as passwords or private keys
+- Wallet account addresses, public keys, and transaction signatures returned by compatible wallets
+- Terminal input and terminal output generated during SSH sessions
+- Device-level local storage needed for app settings, saved connections, and session state
+- Limited operational information needed for security, debugging, abuse prevention, lawful compliance, or support if a separate operator adds hosted services
 
-User data may be used only to:
+## 3. How Information Is Used
 
-- Save and manage local server profiles
-- Establish SSH connections requested by the user
-- Support wallet connection and transaction signing workflows
-- Display terminal output, connection state, and transaction status inside the app
-- Maintain app security, stability, debugging, fraud prevention, and lawful compliance where applicable
+Information may be used only for legitimate app functions, including:
 
-We do not use deceptive, coercive, or fraudulent methods to obtain consent for data processing. If consent is required by applicable law, it should be obtained in a lawful and clear manner.
+- Saving and managing connection profiles
+- Establishing SSH sessions requested by the user
+- Supporting wallet connection and transaction signing workflows requested by the user
+- Displaying terminal output, session status, and transaction status
+- Protecting the security, integrity, and reliability of the app
+- Complying with applicable law, regulation, legal process, or platform requirements
 
-## Local Storage and Deletion
+We do not use deceptive, coercive, or fraudulent methods to obtain user consent or permission for data handling.
 
-The app may store certain user-provided credentials and configuration data locally on the device.
+## 4. Local Storage
 
-At the current repository level:
+The default app stores some information locally on the user’s device, such as saved connection settings and related configuration data.
+
+At the repository level:
 
 - No hosted user account is required by default
-- Saved server profiles may be deleted by the user from within the app
-- Local app data may also be removed by uninstalling the app or clearing app storage on the device
+- Users can delete saved connection data from within the app where supported
+- Users can remove local app data by uninstalling the app or clearing app storage on the device
 
-If a future deployment adds hosted accounts or cloud-backed storage, the operator of that deployment must provide a lawful method for users to request account deletion and deletion of associated user data, except where retention is required for legal, security, fraud-prevention, tax, or regulatory reasons.
+If a future deployment adds hosted accounts or cloud-backed services, that deployment operator must provide a lawful and reasonably accessible method for account deletion and deletion of associated personal data, except where retention is required by law, tax, fraud prevention, security, or regulatory obligations.
 
-## Third-Party Services
+## 5. Third-Party Services
 
-The app may interact with third-party systems chosen by the user, including:
+The app may connect to third-party services chosen by the user or deployment operator, including:
 
 - SSH servers
 - Solana RPC endpoints
-- Solana-compatible wallets through Solana Mobile Wallet Adapter
-- Other infrastructure selected by the developer or deployment operator
+- Solana-compatible wallets
+- Device manufacturers, app marketplaces, or infrastructure services involved in app delivery or operation
 
-Any third-party service with access to user data should be contractually or operationally required to handle such data in a manner consistent with applicable law and the privacy commitments made for the app.
+Those third parties operate under their own terms and privacy practices. If a deployment operator gives third parties access to user data, that operator should ensure those third parties handle the data consistently with applicable law and the operator’s disclosed privacy commitments.
 
-Each third-party service remains governed by its own privacy practices and terms.
+## 6. Sharing and Disclosure
 
-## Sharing and Disclosure
+The default repository implementation is not a general-purpose hosted data-sharing platform.
 
-This repository does not provide a general-purpose hosted data-sharing service. Data is transmitted only as needed to carry out user-requested functionality, such as:
+Information may be transmitted or disclosed only as needed to deliver user-requested functionality or to satisfy legal and security obligations, including:
 
-- Connecting to an SSH server
-- Requesting a wallet session
-- Submitting a blockchain transaction
-- Accessing a user-selected infrastructure endpoint
+- Connecting to a user-selected SSH host
+- Communicating with a user-selected or app-configured RPC endpoint
+- Requesting a wallet session or submitting a blockchain transaction
+- Responding to valid legal process, law enforcement requests, or regulatory obligations where required
+- Investigating fraud, abuse, or security incidents
 
-We do not sell user data as part of the default repository implementation.
+We do not sell personal information as part of the default implementation described in this repository.
 
-## Regulated and Sensitive Data
+## 7. Regulated or Sensitive Data
 
-The app is not intended to collect more regulated or sensitive data than is reasonably necessary for its function.
+Solana Remote is not intended to collect more regulated or sensitive data than is reasonably necessary for its technical function.
 
-If any deployment collects or processes regulated or sensitive data, that deployment should:
+If any deployment processes regulated or sensitive data, that deployment should:
 
-- Collect only the minimum data necessary for the stated purpose
-- Use encryption and industry-standard safeguards in transit and at rest
-- Avoid disclosure or sale of such data except with lawful authority, express user consent where required, and compliance with applicable law
+- Minimize collection to what is strictly necessary
+- Protect the data using encryption and appropriate security controls
+- Avoid unauthorized disclosure, misuse, or sale
+- Comply with applicable privacy, financial, consumer protection, security, and other regulatory requirements
 
-Users should not enter highly regulated data into the app unless doing so is necessary, lawful, and supported by an appropriate deployment environment.
+Users should avoid storing highly sensitive or regulated information in the app unless doing so is necessary, lawful, and appropriately secured.
 
-## Minors
+## 8. Minors
 
-The app is not directed to children, and user data from minors should not be collected without any consent required by applicable law, including parental or guardian consent where required.
+Solana Remote is not directed to children. Personal information from minors should not be collected unless any consent required by applicable law has been obtained, including parental or guardian consent where required.
 
-## Security
+## 9. Security
 
-Reasonable efforts may be made to store sensitive information securely on-device and to protect data against unauthorized access, disclosure, alteration, or destruction. However, no software, wallet flow, network, or storage method can guarantee absolute security.
+We take reasonable steps to protect information against unauthorized access, misuse, disclosure, alteration, or destruction. However, no device, app, wallet flow, network, or storage system can guarantee absolute security.
 
-Users remain responsible for validating server fingerprints, remote hosts, wallet prompts, and transaction details before proceeding.
+Users remain responsible for verifying remote hosts, SSH fingerprints, account credentials, wallet prompts, recipients, transaction amounts, and other high-risk actions before proceeding.
 
-## International and Legal Compliance
+## 10. International and Legal Compliance
 
-Developers and deployment operators are responsible for complying with applicable privacy, consumer protection, data protection, and security laws in the jurisdictions where the app is offered or used.
+Developers, publishers, and deployment operators are responsible for ensuring that their use of Solana Remote complies with applicable privacy, data protection, consumer protection, security, and financial laws in the jurisdictions where the app is offered or used.
 
-## Changes
+## 11. Changes to This Policy
 
-This Privacy Policy may be updated from time to time. Continued use of the app after changes are published constitutes acceptance of the revised policy, to the extent permitted by applicable law.
+This Privacy Policy may be updated from time to time. Continued use of the app after an updated version is published constitutes acceptance of the revised policy to the extent permitted by applicable law.
 
-## Contact
+## 12. Contact
 
-For ownership, licensing, privacy, or deletion-related questions, use the contact details maintained by the repository owner or the relevant deployment operator.
+For questions about privacy, deletion, compliance, or this policy, contact the repository owner or the operator of the specific deployment you are using.
